@@ -58,5 +58,4 @@ filtered_teams <- filtered_teams %>% mutate(win_per_game=W/G,errors_p_game=E/G)
 cor(filtered_teams$win_per_game,filtered_teams$errors_p_game)
 cor(filtered_teams$errors_p_game,filtered_teams$win_per_game)
 
-filtered_teams <- filtered_teams %>%mutate(triple_per_g= X3B/G, double_per_ga = X2B/G)
-cor(filtered_teams$triple_per_g,filtered_teams$double_per_ga)
+
